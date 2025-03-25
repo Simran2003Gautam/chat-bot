@@ -1,0 +1,1706 @@
+{
+  "intents": [
+    {
+      "tag": "welcome_message",
+      "patterns": [
+        "hello",
+        "hey",
+        "hii",
+        "Hi!",
+        "Hello there!",
+        "Is anyone here?",
+        "Hey chatbot",
+        "Hi, can you assist me?"
+      ],
+      "responses": [
+        "Hello! Welcome to our learning platform. How can I help you today?",
+        "Hi there! Ready to explore some amazing learning opportunities?",
+        "Welcome! Let me know what you're looking for."
+      ]
+    },
+    {
+      "tag": "recommendations",
+      "patterns": [
+        "recommend me some courses",
+        "recommend courses",
+        "Can you recommend some courses?",
+        "What should I study?",
+        "Give me suggestions for courses",
+        "Which course do you think I should take?"
+      ],
+      "responses": [
+        "Sure! Are you interested in programming, design, or business? Let me suggest something!",
+        "I recommend 'Machine Learning Basics', 'UX/UI Design Essentials', or 'Digital Marketing Strategies'.",
+        "Based on what’s trending, you might enjoy 'Python for Data Analysis' or 'Intro to Cloud Computing'."
+      ]
+    },
+    {
+      "tag": "certifications",
+      "patterns": [
+        "Do courses include certifications?",
+        "Will I get a certificate after completion?",
+        "Are certifications available?",
+        "Is there a certificate for each course?"
+      ],
+      "responses": [
+        "Yes, certificates are provided upon successful completion of most courses.",
+        "Our courses come with certifications that you can add to your LinkedIn profile or resume.",
+        "Certificates are available once you complete the course and pass the assessments."
+      ]
+    },
+    {
+      "tag": "instructor_info",
+      "patterns": [
+        "Who teaches these courses?",
+        "Tell me about the instructors",
+        "Are the teachers qualified?",
+        "Can I see the instructor's profile?"
+      ],
+      "responses": [
+        "Our instructors are industry experts with years of experience.",
+        "Each course includes an instructor profile with their qualifications and background.",
+        "You can view detailed instructor information in the course description."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long does a course take?",
+        "What is the duration of courses?",
+        "Are the courses short or long?",
+        "How much time do I need to complete a course?"
+      ],
+      "responses": [
+        "Course durations vary. Some take a few hours, while others span multiple weeks.",
+        "The average course takes about 10–15 hours to complete, but it depends on the course.",
+        "You can find duration details on each course's information page."
+      ]
+    },
+    {
+      "tag": "technical_help",
+      "patterns": [
+        "The platform isn't working",
+        "I'm having trouble accessing my account",
+        "The course page isn't loading",
+        "Can you help me with a technical issue?"
+      ],
+      "responses": [
+        "Please try clearing your browser cache and reloading the page.",
+        "For account-related issues, click on 'Forgot Password' or contact our support team.",
+        "Let me know more details about the issue, and I'll do my best to guide you."
+      ]
+    },
+    {
+      "tag": "progress_tracking",
+      "patterns": [
+        "How do I track my progress?",
+        "Where can I see my completed lessons?",
+        "Can I check my course progress?",
+        "How do I know how much is left in my course?"
+      ],
+      "responses": [
+        "Your progress is tracked automatically and can be viewed on your dashboard.",
+        "Check the progress bar on the course page to see how far you've come.",
+        "All your completed lessons and quizzes are marked in your course overview."
+      ]
+    },
+    {
+      "tag": "course_availability",
+      "patterns": [
+        "Are the courses available offline?",
+        "Can I download the content?",
+        "Are there any pre-recorded sessions?",
+        "Are the courses self-paced?"
+      ],
+      "responses": [
+        "Many courses offer offline downloads and are self-paced for your convenience.",
+        "You can access pre-recorded sessions anytime, even without an internet connection.",
+        "Check the course details to see if offline downloads are available."
+      ]
+    },
+    {
+      "tag": "feedback_support",
+      "patterns": [
+        "How do I provide feedback?",
+        "Where can I leave a review?",
+        "Can I rate the courses?",
+        "How do I share my thoughts about the platform?"
+      ],
+      "responses": [
+        "You can leave feedback on the course page or through the feedback section in your profile.",
+        "We value your input! Click on 'Submit Feedback' to share your experience.",
+        "Reviews can be added at the end of each course. Your thoughts help us improve!"
+      ]
+    },
+    {
+      "tag": "general_query",
+      "patterns": [
+        "I have a question",
+        "Can I ask something?",
+        "I need some information",
+        "Can you answer a query?"
+      ],
+      "responses": [
+        "Of course! Please let me know your question.",
+        "I'm here to help. What's on your mind?",
+        "Sure! Tell me what you'd like to know."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there!",
+        "Hello, how are you?",
+        "Hey, can you help me?",
+        "Greetings!",
+        "What's up?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi! What can I do for you?",
+        "Hey there! Need help with something?"
+      ]
+    },
+    {
+      "tag": "popular_courses",
+      "patterns": [
+        "Which courses are popular?",
+        "Show me trending courses",
+        "What are the top-rated courses?",
+        "Tell me about the most popular courses"
+      ],
+      "responses": [
+        "Our top-rated courses include 'Python for Beginners', 'Data Science with R', and 'Full-Stack Web Development'.",
+        "Trending courses are 'AI and Machine Learning', 'React.js Essentials', and 'Cybersecurity Basics'.",
+        "Check out our popular courses section to see what other learners are loving!"
+      ]
+    },
+    {
+      "tag": "live_support",
+      "patterns": [
+        "Can I chat with someone live?",
+        "Do you offer live support?",
+        "I need immediate help",
+        "Is there a live chat option?"
+      ],
+      "responses": [
+        "Yes, our live support is available 24/7. Click on the 'Chat with Support' button to get assistance.",
+        "You can connect with a live agent using the 'Help' section on our website.",
+        "Live chat is accessible through your dashboard for real-time assistance."
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": [
+        "Are courses available in other languages?",
+        "Can I access courses in Spanish?",
+        "Do you have multilingual options?",
+        "Is there language support for courses?"
+      ],
+      "responses": [
+        "Yes, many of our courses are available in multiple languages with subtitles.",
+        "We offer content in English, Spanish, French, and more. Let me know what you need!",
+        "Language options can be found in the course details section."
+      ]
+    },
+    {
+      "tag": "membership_plans",
+      "patterns": [
+        "Do you have membership plans?",
+        "Tell me about subscriptions",
+        "What are your pricing options?",
+        "Can I buy a membership?"
+      ],
+      "responses": [
+        "We offer monthly, quarterly, and annual membership plans. Check out our 'Plans and Pricing' section.",
+        "Subscriptions are available on flexible terms. You can find more details in the 'Plans' section.",
+        "Yes, we have affordable membership options. Let me guide you to the right plan!"
+      ]
+    },
+    {
+      "tag": "technical_difficulties",
+      "patterns": [
+        "I'm having technical problems",
+        "The website is not working",
+        "I can't access my course",
+        "What should I do for technical issues?"
+      ],
+      "responses": [
+        "Please try clearing your browser cache and refreshing the page. Still stuck? Let me know!",
+        "For technical issues, contact our support team or use the 'Report Issue' button in your profile.",
+        "Try logging out and back in again. If the issue persists, our support team is here to help!"
+      ]
+    },
+    {
+      "tag": "group_learning",
+      "patterns": [
+        "Do you offer group discounts?",
+        "Can my team join courses together?",
+        "Do you support corporate learning?",
+        "What about group sessions?"
+      ],
+      "responses": [
+        "We offer group plans for teams and corporate training. Contact us for more information.",
+        "Yes, group learning plans are available. Let me connect you to our sales team!",
+        "We provide tailored plans for corporate and group learning. Interested?"
+      ]
+    },
+    {
+      "tag": "mobile_app",
+      "patterns": [
+        "Do you have a mobile app?",
+        "Can I learn on my phone?",
+        "Is there an app for this platform?",
+        "Where can I download the app?"
+      ],
+      "responses": [
+        "Yes! Our mobile app is available on both iOS and Android. Search for 'Learnify App' in your app store.",
+        "Download our app to learn on the go. It's free and super easy to use!",
+        "You can access our platform via our mobile app for a seamless learning experience."
+      ]
+    },
+    {
+      "tag": "course_completion",
+      "patterns": [
+        "How do I complete a course?",
+        "What are the requirements for finishing a course?",
+        "Do I need to pass tests to complete a course?",
+        "What is needed for course completion?"
+      ],
+      "responses": [
+        "Courses are completed when all lessons and quizzes are marked as done.",
+        "Completion requirements vary. Some courses include tests, while others are self-paced.",
+        "Check the course overview for specific completion criteria."
+      ]
+    },
+    {
+      "tag": "welcome",
+      "patterns": [
+        "Hi, I'm new here",
+        "Hello, how does this work?",
+        "Hey, I'm exploring your platform",
+        "What can you help me with?"
+      ],
+      "responses": [
+        "Welcome to our learning platform! I'm here to guide you. What would you like to know?",
+        "Hi there! You can browse courses, join live classes, or ask for recommendations. How can I assist?",
+        "Hello! Feel free to explore our platform. Let me know if you need any help!"
+      ]
+    },
+    {
+      "tag": "free_courses",
+      "patterns": [
+        "Are there any free courses?",
+        "Do you offer free learning resources?",
+        "Can I access courses without paying?",
+        "Tell me about free options"
+      ],
+      "responses": [
+        "Yes, we offer a variety of free courses! Check out our 'Free Learning' section on the platform.",
+        "We have free courses in Python, Web Development, and more. Would you like a link to explore them?",
+        "Absolutely! Free resources are available. Let me know your interest, and I can guide you."
+      ]
+    },
+    {
+      "tag": "account_help",
+      "patterns": [
+        "I can't log into my account",
+        "How do I reset my password?",
+        "I'm having trouble accessing my profile",
+        "Account login issues"
+      ],
+      "responses": [
+        "Please try resetting your password using the 'Forgot Password' option on the login page.",
+        "If you're unable to log in, clear your browser cache and try again. Need further help?",
+        "Contact our support team for assistance with your account. They'll resolve it quickly!"
+      ]
+    },
+    {
+      "tag": "certificates",
+      "patterns": [
+        "Do I get a certificate after completing a course?",
+        "Tell me about certifications",
+        "Are certificates provided for all courses?",
+        "Will I receive a course completion certificate?"
+      ],
+      "responses": [
+        "Yes! You'll receive a verified certificate after successfully completing a course.",
+        "Certificates are available for most courses. They're great for showcasing your skills!",
+        "Upon course completion, a digital certificate will be added to your profile."
+      ]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "I'm facing issues with video playback",
+        "Why is my course not loading?",
+        "Videos are buffering a lot",
+        "I can't access live sessions"
+      ],
+      "responses": [
+        "Please ensure your internet connection is stable and try refreshing the page.",
+        "Clear your browser cache or try using a different browser. Still facing issues?",
+        "For live session access issues, check your email for updated links or contact support."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "Where can I leave feedback?",
+        "How do I share my experience?",
+        "Can I rate a course?",
+        "I want to give feedback on the platform"
+      ],
+      "responses": [
+        "We'd love to hear your feedback! Use the 'Feedback' section on your dashboard to share your thoughts.",
+        "You can rate courses on their respective pages. Your feedback helps us improve!",
+        "Feel free to email us your suggestions or use the feedback form in your profile."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "What is your refund policy?",
+        "Can I get a refund for a course?",
+        "Tell me about course refund rules",
+        "Is there a refund option?"
+      ],
+      "responses": [
+        "Our refund policy allows a full refund within 7 days of purchase, as long as the course isn't completed.",
+        "Yes, you can request a refund within the first week. Contact support for more details.",
+        "Refunds are processed within 5-7 business days after approval. Let us know if you need help with this."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long are the courses?",
+        "What is the duration of your courses?",
+        "Are the courses long?",
+        "How much time do I need to complete a course?"
+      ],
+      "responses": [
+        "Course durations vary. Some are 2-3 hours long, while others are 20+ hours. Check the course details for specifics.",
+        "It depends on the course. Short courses take a few hours, while detailed ones may take weeks.",
+        "Most courses are designed to be flexible, allowing you to learn at your own pace."
+      ]
+    },
+    {
+      "tag": "course_materials",
+      "patterns": [
+        "Do I get downloadable materials?",
+        "Are there any PDFs or notes with courses?",
+        "Do you provide additional resources?",
+        "Can I download course content?"
+      ],
+      "responses": [
+        "Yes! Many courses offer downloadable resources like PDFs and slides for offline learning.",
+        "Course materials are included. You can find them under the 'Resources' section of each course.",
+        "Absolutely! Additional materials are provided to enhance your learning experience."
+      ]
+    },
+    {
+      "tag": "future_courses",
+      "patterns": [
+        "Are there any upcoming courses?",
+        "What new courses will be available?",
+        "Tell me about future course plans",
+        "Do you add new content regularly?"
+      ],
+      "responses": [
+        "We frequently add new courses based on trending topics. Stay tuned to our newsletter for updates!",
+        "Yes, new courses are in development. Let us know what topics you'd like to see!",
+        "Upcoming courses include 'AI for Beginners' and 'Blockchain Essentials.' Interested?"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I do for you?",
+        "Greetings! How can I help?"
+      ]
+    },
+    {
+      "tag": "course_inquiry",
+      "patterns": [
+        "Can you tell me about the courses?",
+        "What courses do you have?",
+        "List some available courses",
+        "I want to know about the courses"
+      ],
+      "responses": [
+        "We offer courses in Python, Data Science, Web Development, and more! What are you interested in?",
+        "Our platform features courses in multiple domains like AI, Machine Learning, and Cloud Computing. Let me know if you'd like recommendations.",
+        "Sure! Popular courses include 'Full Stack Development', 'Data Analytics', and 'Cybersecurity Basics'."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "What is the cost of courses?",
+        "Tell me about the pricing",
+        "How much do the courses cost?",
+        "Course fees please"
+      ],
+      "responses": [
+        "Courses start from $20 and vary depending on the subject and duration. Check our pricing page for details!",
+        "Pricing depends on the course. Short-term courses are generally $20-$50, while advanced ones range from $100-$300.",
+        "Most of our courses are affordable, starting from $20. Would you like to explore free options as well?"
+      ]
+    },
+    {
+      "tag": "recommend_course",
+      "patterns": [
+        "Can you recommend a course?",
+        "Suggest me a good course",
+        "What course should I take?",
+        "Recommend me something"
+      ],
+      "responses": [
+        "Based on student feedback, 'Machine Learning A-Z' and 'Full-Stack Developer Bootcamp' are highly recommended.",
+        "You might like 'Python for Beginners' if you're starting out, or 'Advanced AI' if you're experienced.",
+        "Our 'Data Science Pro' course is perfect for career advancement. Would you like to enroll?"
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": [
+        "Are courses available in other languages?",
+        "Can I watch videos in Spanish?",
+        "Is there language support?",
+        "Do you have multilingual courses?"
+      ],
+      "responses": [
+        "Yes, many courses come with subtitles in multiple languages, including Spanish, French, and Hindi.",
+        "We support several languages for video lectures. You can select your preferred one while viewing the course.",
+        "Absolutely! Our platform offers multilingual subtitles and some courses are even dubbed in regional languages."
+      ]
+    },
+    {
+      "tag": "live_classes",
+      "patterns": [
+        "Do you offer live classes?",
+        "Can I join live sessions?",
+        "Are there live lectures?",
+        "Is live teaching available?"
+      ],
+      "responses": [
+        "Yes, we offer live classes for select courses with interactive Q&A sessions.",
+        "Live classes are available for premium members. Would you like to explore this feature?",
+        "Sure! Live sessions are scheduled weekly. Check the course page for the timetable."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thanks for helping me"
+      ],
+      "responses": [
+        "You're welcome! Let me know if there's anything else.",
+        "Happy to help! Have a great day!",
+        "You're most welcome! Reach out anytime."
+      ]
+    },
+    {
+      "tag": "no_answer",
+      "patterns": [
+        "What is the meaning of life?",
+        "Tell me something about the universe",
+        "Why are we here?"
+      ],
+      "responses": [
+        "That's a great question! Let's focus on learning first. 😊",
+        "I'm here to assist you with courses. Philosophy is not my forte!",
+        "That's beyond my scope, but keep asking questions and learning!"
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hey! How's it going?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you next time!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "course_recommendation",
+      "patterns": [
+        "What courses do you recommend?",
+        "Suggest a course for me",
+        "Can you recommend a course?"
+      ],
+      "responses": [
+        "Based on popular demand, I recommend the following courses: 'Full-Stack Development', 'Data Science Bootcamp', and 'Digital Marketing Masterclass'.",
+        "You might enjoy: 'Machine Learning for Beginners', 'Creative Writing Essentials', or 'Advanced Python Programming'."
+      ]
+    },
+    {
+      "tag": "top_rated_courses",
+      "patterns": [
+        "What are the top-rated courses?",
+        "Best courses on your platform?",
+        "Top courses available?"
+      ],
+      "responses": [
+        "Here are some top-rated courses: 'AI and Deep Learning', 'Project Management Professional (PMP)', and 'Blockchain Fundamentals'.",
+        "The most loved courses are: 'UX/UI Design Basics', 'Cybersecurity Essentials', and 'Financial Analysis and Valuation'."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much does a course cost?",
+        "What is the price of your courses?",
+        "Are there any free courses?"
+      ],
+      "responses": [
+        "Our courses range from $20 to $200, depending on the content. Check the 'Pricing' section for details.",
+        "We also offer several free courses! Explore our free courses in the 'Resources' section."
+      ]
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "Are courses available in different languages?",
+        "Can I watch courses in my language?",
+        "Language options for courses?"
+      ],
+      "responses": [
+        "Yes, our courses are available in multiple languages, including English, Spanish, French, and German. Subtitles are also provided.",
+        "We support several languages to make learning accessible. Check the language options on the course details page."
+      ]
+    },
+    {
+      "tag": "live_classes",
+      "patterns": [
+        "Do you offer live classes?",
+        "Are there live sessions?",
+        "Can I attend live classes?"
+      ],
+      "responses": [
+        "Yes, we offer live classes for premium users. You can check the schedule under the 'Live Classes' tab.",
+        "Our live classes are conducted weekly. Make sure to register early as seats are limited!"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "How is attendance tracked?",
+        "Do you monitor attendance for live classes?",
+        "What about attendance?"
+      ],
+      "responses": [
+        "Attendance for live classes is tracked using facial recognition technology.",
+        "We use advanced attendance systems to ensure accurate tracking. Just enable your camera during live sessions."
+      ]
+    },
+    {
+      "tag": "technical_issues",
+      "patterns": [
+        "I can't access my course",
+        "The video is not loading",
+        "Facing technical problems"
+      ],
+      "responses": [
+        "We're sorry for the inconvenience. Please try refreshing the page or check your internet connection.",
+        "If the issue persists, contact support at support@learningplatform.com for further assistance."
+      ]
+    },
+    {
+      "tag": "profile_management",
+      "patterns": [
+        "How do I update my profile?",
+        "Can I change my email?",
+        "Edit profile options?"
+      ],
+      "responses": [
+        "You can update your profile by going to the 'My Account' section and clicking on 'Edit Profile'.",
+        "Profile updates are quick and easy! Head to 'Settings' to make changes."
+      ]
+    },
+    {
+      "tag": "certification",
+      "patterns": [
+        "Do I get a certificate?",
+        "Are certificates provided?",
+        "What about certification?"
+      ],
+      "responses": [
+        "Yes, you will receive a certificate upon course completion.",
+        "Certificates are included with all paid courses. You can download them from your profile after completion."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support?",
+        "Need help from support",
+        "Customer service options?"
+      ],
+      "responses": [
+        "You can reach out to our support team at support@learningplatform.com or via the 'Help' section on our website.",
+        "For assistance, visit our 'Support Center' or call our helpline at +123-456-7890."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "What is your refund policy?",
+        "Can I get a refund?",
+        "Refund options available?"
+      ],
+      "responses": [
+        "We offer a 30-day refund policy for all purchases. Visit our 'Refund Policy' page for more details.",
+        "Refunds are processed quickly if the request is made within 30 days of purchase. Contact support for help."
+      ]
+    },
+    {
+      "tag": "subscription",
+      "patterns": [
+        "Do you have a subscription plan?",
+        "What are the subscription options?",
+        "Membership plans available?"
+      ],
+      "responses": [
+        "Yes, we offer monthly and yearly subscription plans for unlimited course access. Check the 'Plans & Pricing' section.",
+        "Our subscription plans start at $29.99/month. Visit 'Membership Plans' for more details."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How can I leave feedback?",
+        "Where to provide course reviews?",
+        "Can I give feedback?"
+      ],
+      "responses": [
+        "We value your feedback! Go to the course page and click on 'Leave a Review' to share your thoughts.",
+        "Feedback helps us improve! Use the 'Feedback' form under your profile to submit suggestions or reviews."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Hey! How's it going?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "I'm leaving"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you next time!",
+        "Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks a lot",
+        "Thanks for the help"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad to help!",
+        "Anytime!"
+      ]
+    },
+    {
+      "tag": "course_recommendation",
+      "patterns": [
+        "What courses do you recommend?",
+        "Suggest a course for me",
+        "Can you recommend a course?"
+      ],
+      "responses": [
+        "We recommend beginner-friendly courses like 'Introduction to Programming' or 'Learn Python Basics'.",
+        "Consider exploring 'Data Science Essentials', 'Web Development for Beginners', or 'Fundamentals of JavaScript'."
+      ]
+    },
+    {
+      "tag": "course_access",
+      "patterns": [
+        "How do I access my courses?",
+        "Where can I find my enrolled courses?",
+        "Accessing courses?"
+      ],
+      "responses": [
+        "You can find your enrolled courses in the 'My Learning' section on the dashboard.",
+        "All your courses are listed in your account under 'Enrolled Courses'."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "What is the price of your courses?",
+        "How much do courses cost?",
+        "Are there any free courses?"
+      ],
+      "responses": [
+        "Our courses are priced differently based on content, and some are completely free! Check the 'Pricing' section for more details.",
+        "You can explore our free and premium courses in the 'Learn More' section on our website."
+      ]
+    },
+    {
+      "tag": "languages",
+      "patterns": [
+        "Are courses available in different languages?",
+        "Can I watch courses in my language?",
+        "Language options for courses?"
+      ],
+      "responses": [
+        "Yes, courses are available in various languages and come with subtitles for better accessibility.",
+        "We support multiple languages. You can adjust this in the course settings."
+      ]
+    },
+    {
+      "tag": "live_classes",
+      "patterns": [
+        "Do you offer live classes?",
+        "Are there live sessions?",
+        "Can I attend live classes?"
+      ],
+      "responses": [
+        "Yes, we offer live classes. You can join them via the 'Live Classes' tab.",
+        "Live sessions are available weekly. Register early to secure your spot!"
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": [
+        "How is attendance tracked?",
+        "Do you monitor attendance for live classes?",
+        "What about attendance?"
+      ],
+      "responses": [
+        "Attendance is tracked through an automated system using advanced technology.",
+        "We ensure attendance records are accurate for all live sessions."
+      ]
+    },
+    {
+      "tag": "technical_issues",
+      "patterns": [
+        "I can't access my course",
+        "The video is not loading",
+        "Facing technical problems"
+      ],
+      "responses": [
+        "Please refresh the page or check your internet connection. If the issue persists, contact support.",
+        "We're here to help! Reach out to support via the 'Help Center' if problems continue."
+      ]
+    },
+    {
+      "tag": "certification",
+      "patterns": [
+        "Do I get a certificate?",
+        "Are certificates provided?",
+        "What about certification?"
+      ],
+      "responses": [
+        "Yes, you will receive a certificate upon completing a course successfully.",
+        "Certificates are available for all courses and can be downloaded once completed."
+      ]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": [
+        "How can I contact support?",
+        "Need help from support",
+        "Customer service options?"
+      ],
+      "responses": [
+        "You can reach out to our support team via the 'Help Center' or email us for assistance.",
+        "For support, visit the 'Contact Us' page on our website."
+      ]
+    },
+    {
+      "tag": "reset_password",
+      "patterns": [
+        "How can I reset my password?",
+        "Forgot password",
+        "Change login credentials?"
+      ],
+      "responses": [
+        "You can reset your password by selecting 'Forgot Password' on the login page.",
+        "Resetting your password is simple! Follow the instructions on the password recovery page."
+      ]
+    },
+    {
+      "tag": "subscription",
+      "patterns": [
+        "Do you have a subscription plan?",
+        "What are the subscription options?",
+        "Membership plans available?"
+      ],
+      "responses": [
+        "Yes, we offer flexible subscription plans for unlimited course access. Visit the 'Plans' section for details.",
+        "Our membership options include exclusive benefits like live classes and premium content."
+      ]
+    },
+    {
+      "tag": "refund_policy",
+      "patterns": [
+        "What is your refund policy?",
+        "Can I get a refund?",
+        "Refund options available?"
+      ],
+      "responses": [
+        "We have a refund policy in place. Visit the 'Refund Policy' section for more details.",
+        "Refunds are offered if requested within the allowed timeframe. Contact support for further assistance."
+      ]
+    },
+    {
+      "tag": "offline_access",
+      "patterns": [
+        "Can I download course materials?",
+        "Offline access to courses?",
+        "Download videos for offline?"
+      ],
+      "responses": [
+        "Yes, videos and resources can be downloaded for offline use. Check the course page for options.",
+        "Offline access is available for most courses. Ensure you're logged in to use this feature."
+      ]
+    },
+    {
+      "tag": "welcome",
+      "patterns": [
+        "Hi there",
+        "Hello there",
+        "Hey",
+        "Greetings",
+        "Good day"
+      ],
+      "responses": [
+        "Welcome! How can I help you today?",
+        "Hi! What brings you here?",
+        "Hello! Let’s get started."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": [
+        "Goodbye",
+        "See you",
+        "Take care",
+        "I'm off",
+        "Catch you later"
+      ],
+      "responses": [
+        "Goodbye! Stay safe!",
+        "Take care and see you soon!",
+        "Have a wonderful day!"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Help needed",
+        "Support required",
+        "I need help"
+      ],
+      "responses": [
+        "Sure! Let me know what you need assistance with.",
+        "Happy to assist! Please share the details.",
+        "I'm here to help. What's the issue?"
+      ]
+    },
+    {
+      "tag": "enrollment",
+      "patterns": [
+        "How do I enroll in a course?",
+        "I want to join a course",
+        "Enrolling in a course"
+      ],
+      "responses": [
+        "You can enroll via the course page by clicking 'Join Now'.",
+        "Find the course you like and select 'Enroll'. It’s easy!"
+      ]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": [
+        "What payment methods do you accept?",
+        "How can I pay?",
+        "Accepted payment options?"
+      ],
+      "responses": [
+        "We accept multiple payment options like credit cards, debit cards, and online wallets.",
+        "Payment can be made through various methods available at checkout."
+      ]
+    },
+    {
+      "tag": "platform_features",
+      "patterns": [
+        "What features does your platform offer?",
+        "Platform functionalities?",
+        "Key features?"
+      ],
+      "responses": [
+        "Our platform includes live classes, downloadable resources, and multi-language support.",
+        "You’ll find quizzes, discussion forums, and certification options here."
+      ]
+    },
+    {
+      "tag": "quizzes",
+      "patterns": [
+        "Are there quizzes?",
+        "Do you offer practice questions?",
+        "How can I test my knowledge?"
+      ],
+      "responses": [
+        "Yes, quizzes are available at the end of each module.",
+        "Test your knowledge with our interactive quizzes after lessons."
+      ]
+    },
+    {
+      "tag": "community_support",
+      "patterns": [
+        "Is there a community for learners?",
+        "Can I interact with others?",
+        "Learner community options?"
+      ],
+      "responses": [
+        "Yes, you can connect with other learners in the discussion forums.",
+        "Join our community to exchange ideas and insights with peers."
+      ]
+    },
+    {
+      "tag": "system_requirements",
+      "patterns": [
+        "What are the system requirements?",
+        "Minimum requirements for access?",
+        "Device compatibility?"
+      ],
+      "responses": [
+        "Our platform works on most modern devices and browsers. No special setup needed!",
+        "You just need a reliable internet connection and an updated browser."
+      ]
+    },
+    {
+      "tag": "mobile_app",
+      "patterns": [
+        "Do you have a mobile app?",
+        "Can I access this on my phone?",
+        "Is there an app available?"
+      ],
+      "responses": [
+        "Yes, we have a mobile app available for download on major platforms.",
+        "You can access courses on the go with our user-friendly mobile app."
+      ]
+    },
+    {
+      "tag": "privacy_policy",
+      "patterns": [
+        "What’s your privacy policy?",
+        "How is my data protected?",
+        "Privacy details?"
+      ],
+      "responses": [
+        "Your privacy is our priority. Read more in the 'Privacy Policy' section.",
+        "We ensure your data is secure. Visit our policy page for details."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "How can I provide feedback?",
+        "I want to share my opinion",
+        "Submitting feedback options?"
+      ],
+      "responses": [
+        "We value your feedback. Share it through the 'Feedback' section in your account.",
+        "Your suggestions matter. Let us know what you think via the feedback form."
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": [
+        "What languages are supported?",
+        "Can I choose my preferred language?",
+        "Available languages?"
+      ],
+      "responses": [
+        "Courses are available in multiple languages. Adjust this in the settings.",
+        "Select your preferred language in the 'Language Options' section."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long are the courses?",
+        "What’s the course length?",
+        "Course completion time?"
+      ],
+      "responses": [
+        "Course durations vary based on content. Check each course for estimated time.",
+        "You can learn at your own pace, so completion times depend on your schedule."
+      ]
+    },
+    {
+      "tag": "special_offers",
+      "patterns": [
+        "Do you have any discounts?",
+        "Any special offers?",
+        "Promotions available?"
+      ],
+      "responses": [
+        "We offer discounts during special occasions. Keep an eye on our 'Offers' page.",
+        "Check out seasonal deals for savings on your favorite courses."
+      ]
+    },
+    {
+      "tag": "trending_courses",
+      "patterns": [
+        "What are the trending courses today?",
+        "Which courses are in demand right now?",
+        "Can you suggest some trendy courses?",
+        "What are people learning these days?",
+        "Top trending topics in learning?"
+      ],
+      "responses": [
+        "Today's trending courses include AI, Machine Learning, Data Science, and Web Development.",
+        "Courses like Cybersecurity, Blockchain, and Cloud Computing are in high demand currently.",
+        "You might be interested in trendy courses such as UX/UI Design, Digital Marketing, and Python programming."
+      ]
+    },
+    {
+      "tag": "hype_courses",
+      "patterns": [
+        "Which courses are hyped right now?",
+        "What are the most popular courses?",
+        "Can you tell me about the hype courses today?",
+        "What is everyone talking about in learning?",
+        "Courses that are creating a buzz?"
+      ],
+      "responses": [
+        "AI-driven tools like ChatGPT Development and Prompt Engineering are creating a lot of hype.",
+        "People are diving into Game Development, Virtual Reality, and Augmented Reality courses.",
+        "Full-stack development and Product Management courses are buzz-worthy topics right now."
+      ]
+    },
+    {
+      "tag": "important_courses",
+      "patterns": [
+        "Which courses are important in today’s world?",
+        "What should I learn to stay relevant?",
+        "Can you suggest courses essential for the future?",
+        "What skills are necessary in today’s job market?",
+        "Important topics to study now?"
+      ],
+      "responses": [
+        "Courses in Artificial Intelligence, Cybersecurity, and Cloud Computing are crucial in today’s tech-driven world.",
+        "Learning about Renewable Energy, Sustainable Development, and Climate Change is essential for a greener future.",
+        "Important skills include Data Analysis, Agile Methodologies, and Leadership Training courses."
+      ]
+    },
+    {
+      "tag": "future_trends",
+      "patterns": [
+        "What are the future trends in education?",
+        "Where is the learning industry heading?",
+        "What should I focus on for the future?",
+        "Trends shaping the future of learning?",
+        "Future skills to learn?"
+      ],
+      "responses": [
+        "Future trends include learning automation, AR/VR-based education, and lifelong learning platforms.",
+        "Focus on AI, Quantum Computing, and Ethical Hacking to stay ahead of the curve.",
+        "Green Technology, IoT, and Behavioral Psychology are becoming pivotal in education."
+      ]
+    },
+    {
+      "tag": "job_market_courses",
+      "patterns": [
+        "Which courses will help me get a job?",
+        "What should I study to boost my career?",
+        "Job-oriented courses?",
+        "Courses that lead to high-paying jobs?",
+        "Skills to land a good job?"
+      ],
+      "responses": [
+        "Courses like Data Science, Software Engineering, and Cloud Computing can help you land high-paying jobs.",
+        "Learning DevOps, Mobile App Development, and Project Management is highly beneficial for the job market.",
+        "Certification in Digital Marketing, Business Analytics, and Public Speaking can enhance your career opportunities."
+      ]
+    },
+    {
+      "tag": "short_courses",
+      "patterns": [
+        "Can you suggest short-term courses?",
+        "What are some quick courses to learn?",
+        "Courses that don’t take much time?",
+        "Quick skill-building courses?",
+        "Short-term courses in demand?"
+      ],
+      "responses": [
+        "Short courses like Excel, Presentation Skills, and Time Management can be completed quickly.",
+        "Learn fundamentals of Python, HTML, and CSS in our short-term programming courses.",
+        "Quick certifications in Social Media Marketing, SEO, and Canva Design are popular choices."
+      ]
+    },
+    {
+      "tag": "tech_courses",
+      "patterns": [
+        "What tech courses are trending?",
+        "Which technical skills should I learn?",
+        "Popular technology-related courses?",
+        "What’s hot in the tech field?",
+        "Tech topics to focus on?"
+      ],
+      "responses": [
+        "AI and Machine Learning, Cloud Computing, and Data Engineering are top choices in tech.",
+        "Courses in Blockchain, Quantum Computing, and IoT are becoming increasingly relevant.",
+        "Programming languages like Python, JavaScript, and Rust are in high demand."
+      ]
+    },
+    {
+      "tag": "non_tech_courses",
+      "patterns": [
+        "What non-tech courses can I try?",
+        "Can you suggest non-technical learning options?",
+        "Courses outside of technology?",
+        "Non-tech skills to build?",
+        "Popular non-technical topics?"
+      ],
+      "responses": [
+        "Try courses in Creative Writing, Psychology, and Entrepreneurship for non-tech learning.",
+        "Learn about Arts & Crafts, Public Speaking, or Photography to diversify your skills.",
+        "Explore Music Production, Mindfulness, and Foreign Languages for something unique."
+      ]
+    },
+    {
+      "tag": "best_courses",
+      "patterns": [
+        "What are the best courses to take?",
+        "Which courses are highly rated?",
+        "Can you suggest the top courses?",
+        "Best learning options?",
+        "Highly recommended topics?"
+      ],
+      "responses": [
+        "Highly rated courses include AI for Beginners, Advanced Excel, and Digital Marketing Essentials.",
+        "Courses like Leadership Mastery, Startup Basics, and Effective Communication are top picks.",
+        "Look into Big Data Analysis, Game Development, and Health & Wellness coaching for some of the best options."
+      ]
+    },
+    {
+      "tag": "global_trends",
+      "patterns": [
+        "What are the global education trends today?",
+        "How is education evolving globally?",
+        "What learning trends are people following worldwide?",
+        "Can you tell me about global learning trends?",
+        "Trends shaping education globally?"
+      ],
+      "responses": [
+        "Globally, there’s a surge in online learning platforms and skill-based certifications.",
+        "Personalized learning paths and micro-credentials are shaping education worldwide.",
+        "Trends like immersive learning through AR/VR and AI-driven learning tools are becoming popular."
+      ]
+    },
+    {
+      "tag": "specific_career_courses",
+      "patterns": [
+        "What courses should I take for a career in tech?",
+        "Which courses are good for becoming a data scientist?",
+        "How can I prepare for a career in AI?",
+        "Courses for starting a career in software development?",
+        "Learning paths for cybersecurity professionals?"
+      ],
+      "responses": [
+        "For tech careers, start with Python, Algorithms, and Cloud Computing courses.",
+        "Aspiring data scientists should focus on Statistics, Machine Learning, and Big Data Analytics.",
+        "AI enthusiasts can explore Deep Learning, Natural Language Processing, and Neural Networks."
+      ]
+    },
+    {
+      "tag": "industry_specific_skills",
+      "patterns": [
+        "What skills are needed in the healthcare industry?",
+        "Can you recommend courses for finance professionals?",
+        "What should I learn for a job in the renewable energy sector?",
+        "Important skills for marketing professionals?",
+        "Courses for working in the automotive industry?"
+      ],
+      "responses": [
+        "Healthcare professionals benefit from courses in Health Informatics and Biostatistics.",
+        "Finance professionals should explore courses in Financial Modeling, Risk Management, and Blockchain.",
+        "For renewable energy, try courses in Solar Energy, Wind Energy Systems, and Smart Grids.",
+        "Marketing professionals should focus on Digital Marketing, Consumer Behavior, and SEO Strategies.",
+        "Automotive industry aspirants can learn about Electric Vehicles, Mechatronics, and Automotive Design."
+      ]
+    },
+    {
+      "tag": "time_sensitive_skills",
+      "patterns": [
+        "What skills are time-sensitive to learn now?",
+        "Which courses should I complete this year?",
+        "Urgent skills to learn?",
+        "What’s a must-learn skill for today?",
+        "Time-critical courses to boost my career?"
+      ],
+      "responses": [
+        "AI tools like ChatGPT usage and Prompt Engineering are highly time-sensitive skills.",
+        "Cybersecurity and Data Privacy courses are urgent due to rising digital threats.",
+        "Green Technology and Renewable Energy courses are critical for today’s world."
+      ]
+    },
+    {
+      "tag": "learning_investment",
+      "patterns": [
+        "What courses are worth investing in?",
+        "Can you suggest high-return learning options?",
+        "What learning paths offer good returns on investment?",
+        "Courses that are worth the money?",
+        "Best value-for-money learning opportunities?"
+      ],
+      "responses": [
+        "Invest in courses on Cloud Certifications like AWS, Azure, and Google Cloud for high returns.",
+        "Full-Stack Development and Data Science Bootcamps offer excellent value for your money.",
+        "Project Management Professional (PMP) and Six Sigma are worth the investment for career growth."
+      ]
+    },
+    {
+      "tag": "certification_programs",
+      "patterns": [
+        "What certification programs should I enroll in?",
+        "Can you suggest certifications for beginners?",
+        "Which certifications are industry-recognized?",
+        "What certifications are trending now?",
+        "Important certifications to consider?"
+      ],
+      "responses": [
+        "Beginner-friendly certifications include Google IT Support and Python for Everybody.",
+        "Industry-recognized options are AWS Certified Solutions Architect and CompTIA Security+.",
+        "Trending certifications include AI Practitioner, Scrum Master, and Microsoft Azure Fundamentals."
+      ]
+    },
+    {
+      "tag": "soft_skills_courses",
+      "patterns": [
+        "What soft skills should I develop?",
+        "Can you recommend courses for personality development?",
+        "Soft skills to focus on today?",
+        "Important soft skills to learn?",
+        "Courses for communication and interpersonal skills?"
+      ],
+      "responses": [
+        "Courses in Emotional Intelligence, Conflict Resolution, and Team Building are great for soft skills.",
+        "Public Speaking, Effective Communication, and Negotiation Skills are highly recommended.",
+        "Personality development courses like Leadership, Time Management, and Creativity can help you grow."
+      ]
+    },
+    {
+      "tag": "multidisciplinary_courses",
+      "patterns": [
+        "Can I combine skills from different fields?",
+        "What are some multidisciplinary learning options?",
+        "Courses that combine tech and business?",
+        "Can you suggest cross-domain courses?",
+        "Learning paths combining science and art?"
+      ],
+      "responses": [
+        "Try courses in Data-Driven Marketing, combining analytics with creativity.",
+        "Business Intelligence merges tech and business for better decision-making.",
+        "Explore Design Thinking, where art meets problem-solving and innovation."
+      ]
+    },
+    {
+      "tag": "current_affairs_courses",
+      "patterns": [
+        "Courses related to current global issues?",
+        "What can I learn about sustainability?",
+        "How can I stay updated with global affairs?",
+        "Important topics related to current events?",
+        "What to study about climate change?"
+      ],
+      "responses": [
+        "Sustainability courses like Circular Economy and Environmental Science are relevant.",
+        "Learn about Global Economics and Policy Making for a deeper understanding of world affairs.",
+        "Climate Change and Renewable Energy courses are highly recommended to address global challenges."
+      ]
+    },
+    {
+      "tag": "future_education",
+      "patterns": [
+        "What will education look like in the future?",
+        "Can you tell me about the future of learning?",
+        "What’s next in the education industry?",
+        "Trends shaping the future of education?",
+        "How is education evolving?"
+      ],
+      "responses": [
+        "Education is moving towards AI-driven personalized learning and gamification.",
+        "The future of learning includes virtual classrooms and global collaborative platforms.",
+        "Blockchain for certification and the rise of nano-degrees are shaping the future of education."
+      ]
+    },
+    {
+      "tag": "trending_courses",
+      "patterns": [
+        "What courses are trending today?",
+        "Can you tell me about popular courses right now?",
+        "Which courses are highly rated this week?",
+        "What’s trending in the learning world?",
+        "Give me the top courses today."
+      ],
+      "responses": [
+        "Trending courses include AI and Machine Learning, Full-Stack Development, and Digital Marketing.",
+        "Today’s top picks are Python for Data Science, Blockchain Basics, and Renewable Energy Systems.",
+        "Highly rated courses currently are Web3 Fundamentals, Cloud Computing, and Emotional Intelligence for Leaders."
+      ]
+    },
+    {
+      "tag": "popular_categories",
+      "patterns": [
+        "What are the most popular learning categories?",
+        "Which categories are people enrolling in the most?",
+        "What subjects are popular on this platform?",
+        "Can you suggest some trending course categories?",
+        "What are the top categories today?"
+      ],
+      "responses": [
+        "Popular categories include Technology, Business Skills, and Creative Arts.",
+        "Most learners are exploring Data Science, Renewable Energy, and Personal Development.",
+        "Trending now: AI & ML, Digital Marketing, and Graphic Design."
+      ]
+    },
+    {
+      "tag": "recommended_courses",
+      "patterns": [
+        "Can you recommend some good courses?",
+        "What courses should I take?",
+        "Which courses are useful for career growth?",
+        "Recommend courses based on current demand.",
+        "What are your recommended learning paths?"
+      ],
+      "responses": [
+        "We recommend Data Analysis with Python, Leadership Essentials, and UX Design Fundamentals.",
+        "Courses like Machine Learning A-Z, Agile Project Management, and Financial Modeling are in demand.",
+        "You might like courses in Cloud Computing, Emotional Intelligence, or Advanced Excel for Business."
+      ]
+    },
+    {
+      "tag": "language_support",
+      "patterns": [
+        "Can I watch videos in different languages?",
+        "Do you offer courses in multiple languages?",
+        "What languages are supported for course videos?",
+        "Can I get subtitles in my preferred language?",
+        "Is multilingual support available for videos?"
+      ],
+      "responses": [
+        "Yes, our videos support multiple languages with subtitles available in English, Spanish, and more.",
+        "You can watch courses in your preferred language with multilingual subtitles.",
+        "Our platform offers video lessons in several languages to suit your needs."
+      ]
+    },
+    {
+      "tag": "live_classes",
+      "patterns": [
+        "Do you offer live classes?",
+        "Are there any live sessions available?",
+        "Can I join live lessons with instructors?",
+        "How do I attend a live class?",
+        "Are live classes interactive?"
+      ],
+      "responses": [
+        "Yes, we offer live classes where you can interact with instructors in real time.",
+        "Join live sessions on topics like AI, Business Strategy, or Photography!",
+        "Live classes are scheduled weekly, and you can register through your dashboard."
+      ]
+    },
+    {
+      "tag": "attendance_tracking",
+      "patterns": [
+        "How is attendance tracked for live classes?",
+        "Do you use face recognition for attendance?",
+        "Can I see my attendance history?",
+        "What methods are used for tracking attendance?",
+        "Is attendance automatic?"
+      ],
+      "responses": [
+        "Attendance is tracked using face recognition technology during live sessions.",
+        "Your attendance history is available in your profile for easy tracking.",
+        "Face recognition ensures accurate and secure attendance for all live classes."
+      ]
+    },
+    {
+      "tag": "career_guidance",
+      "patterns": [
+        "What courses are best for my career path?",
+        "Can you guide me on what to learn for my profession?",
+        "Which courses help in career advancement?",
+        "What should I study to improve my career prospects?",
+        "Suggest courses for professional growth."
+      ],
+      "responses": [
+        "For career growth, try Leadership Skills, AI & ML, and Cloud Computing courses.",
+        "Professionals in tech should explore Full-Stack Development and Data Analytics.",
+        "Consider Project Management, Digital Marketing, or Advanced Communication Skills for career advancement."
+      ]
+    },
+    {
+      "tag": "skill_assessment",
+      "patterns": [
+        "How can I assess my skills?",
+        "Do you provide skill tests?",
+        "Can I take an assessment to know my level?",
+        "Is there a way to test my knowledge?",
+        "How do I measure my progress?"
+      ],
+      "responses": [
+        "Our platform offers skill assessments after every course to track your progress.",
+        "You can take quizzes and tests to evaluate your learning outcomes.",
+        "Skill assessments are integrated into the platform to help you understand your strengths."
+      ]
+    },
+    {
+      "tag": "multilingual_features",
+      "patterns": [
+        "Can I switch languages for the platform?",
+        "What multilingual features does the platform have?",
+        "Is the chatbot multilingual?",
+        "Do you support language switching in real time?",
+        "How do I use the platform in a different language?"
+      ],
+      "responses": [
+        "Yes, the platform and chatbot are multilingual, allowing seamless language switching.",
+        "You can switch languages in the settings for both the platform and video subtitles.",
+        "Our platform supports real-time language changes for a personalized experience."
+      ]
+    },
+    {
+      "tag": "tech_support",
+      "patterns": [
+        "How do I get technical support?",
+        "Can you help me with platform issues?",
+        "Where can I report a bug?",
+        "Who do I contact for tech help?",
+        "Is there a support team for assistance?"
+      ],
+      "responses": [
+        "Our tech support team is available 24/7 through the help section on your dashboard.",
+        "You can report any issues via the 'Contact Support' option on the platform.",
+        "For technical help, reach out through the chatbot or email support@example.com."
+      ]
+    },
+    {
+      "tag": "course_information",
+      "patterns": [
+        "Can you tell me about the courses available?",
+        "What courses do you offer?",
+        "What courses should I take?",
+        "Tell me more about the courses.",
+        "What courses are trending?"
+      ],
+      "responses": [
+        "We offer a wide variety of courses in fields like technology, business, and renewable energy. You can explore them on the courses page.",
+        "Courses include subjects like AI, Data Science, Digital Marketing, Web Development, and more.",
+        "You can check the trending courses based on user reviews and industry demand in our 'Trending Courses' section."
+      ]
+    },
+    {
+      "tag": "course_prerequisites",
+      "patterns": [
+        "Do I need any prerequisites for a course?",
+        "What are the prerequisites for the courses?",
+        "Are there any skills required to start the course?",
+        "Can I take a course without prior experience?"
+      ],
+      "responses": [
+        "Some courses require basic knowledge of certain concepts, like programming for technical courses, while others are designed for beginners.",
+        "For advanced courses, prior experience or knowledge in related fields may be required. Check the course description for details.",
+        "Most of our beginner-level courses are designed for anyone, with no prior experience necessary."
+      ]
+    },
+    {
+      "tag": "course_difficulty",
+      "patterns": [
+        "How difficult are the courses?",
+        "Are there beginner-level courses?",
+        "Which courses are easy to start with?",
+        "What is the difficulty level of the courses?"
+      ],
+      "responses": [
+        "We offer courses for all levels—beginner, intermediate, and advanced.",
+        "You can filter courses based on difficulty level, from beginner to advanced.",
+        "The difficulty of courses varies; check each course's description to see if it's suitable for your level."
+      ]
+    },
+    {
+      "tag": "course_duration",
+      "patterns": [
+        "How long does it take to complete a course?",
+        "What is the duration of each course?",
+        "Are the courses self-paced?",
+        "How many hours do I need to dedicate to a course?"
+      ],
+      "responses": [
+        "Course durations vary, with some taking a few hours to complete, while others may take a few weeks.",
+        "Most courses are self-paced, allowing you to complete them on your schedule.",
+        "Check the course page for estimated completion time and average weekly study hours."
+      ]
+    },
+    {
+      "tag": "course_enrollment",
+      "patterns": [
+        "How do I enroll in a course?",
+        "Can I sign up for a course?",
+        "How do I join a course?",
+        "What is the process for enrolling in a course?"
+      ],
+      "responses": [
+        "You can easily enroll in any course by clicking the 'Enroll' button on the course page.",
+        "Simply go to the course page, select your preferred plan, and click 'Enroll' to get started.",
+        "Sign up for courses through your profile by selecting 'My Courses' and choosing your desired course."
+      ]
+    },
+    {
+      "tag": "course_schedule",
+      "patterns": [
+        "When do the courses start?",
+        "Is there a fixed schedule for the courses?",
+        "When can I start a course?",
+        "Can I start the course at any time?"
+      ],
+      "responses": [
+        "Most courses are available to start at any time, and you can learn at your own pace.",
+        "There are some live classes with scheduled dates. You can find the schedule on the course details page.",
+        "You can start courses whenever you like, but live sessions may have fixed start times."
+      ]
+    },
+    {
+      "tag": "course_certificates",
+      "patterns": [
+        "Do I get a certificate after completing a course?",
+        "Will I receive a certificate for finishing the course?",
+        "How can I get a certificate for the course?",
+        "Are certificates available for completed courses?"
+      ],
+      "responses": [
+        "Yes, you will receive a certificate after successfully completing a course. You can download it from your profile.",
+        "Certificates are provided for all courses, available to download once you complete the course.",
+        "Upon completion, you can get a certificate that you can share on LinkedIn or with your employer."
+      ]
+    },
+    {
+      "tag": "course_reviews",
+      "patterns": [
+        "Can I see reviews for a course?",
+        "Where can I find feedback about the courses?",
+        "Are there any reviews for the courses?",
+        "What do other students say about the course?"
+      ],
+      "responses": [
+        "You can find student reviews and ratings on each course page to help you decide.",
+        "Check out the reviews section for insights from other learners who have completed the course.",
+        "We provide user feedback and ratings for all courses, so you can see how others experienced them."
+      ]
+    },
+    {
+      "tag": "course_recommendations",
+      "patterns": [
+        "Can you recommend a course for me?",
+        "What courses should I take next?",
+        "Can you suggest popular courses?",
+        "What’s a good course for me to start with?"
+      ],
+      "responses": [
+        "Based on your interests and progress, I recommend courses in Data Science, Web Development, or Digital Marketing.",
+        "Some popular courses include 'Machine Learning for Beginners' and 'Full Stack Web Development.'",
+        "If you're looking to start, I suggest our introductory courses in programming or design."
+      ]
+    },
+    {
+      "tag": "course_payment",
+      "patterns": [
+        "How do I pay for a course?",
+        "What are the payment methods for the courses?",
+        "Is there a payment plan for courses?",
+        "Can I pay for a course in installments?"
+      ],
+      "responses": [
+        "We accept multiple payment methods including credit cards, PayPal, and bank transfers.",
+        "You can choose a payment plan that suits you, including one-time or installment payments.",
+        "Check the course payment options during the enrollment process."
+      ]
+    },
+    {
+      "tag": "course_languages",
+      "patterns": [
+        "Are the courses available in different languages?",
+        "Can I take the course in my language?",
+        "Do you offer courses in multiple languages?",
+        "Can I learn in my preferred language?"
+      ],
+      "responses": [
+        "Yes, many of our courses offer multilingual support, including subtitles in different languages.",
+        "You can select your preferred language for subtitles while watching the video lectures.",
+        "We offer a wide range of courses in various languages, depending on availability."
+      ]
+    }
+  ]
+}
